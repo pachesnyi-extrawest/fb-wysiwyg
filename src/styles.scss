@@ -1,0 +1,72 @@
+// Variables
+$accent: #ea4335;
+
+// Reset
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* You can add global styles to this file, and also import other style files */
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+// Offsets
+* + h1,h2,h3,h4,h5,h6, * + p {
+  margin-top: 15px;
+}
+
+
+* + .offset-md {
+  margin-top: 20px;
+}
+
+
+.button {
+  display: inline-block;
+  font-size: 1em;
+  transition: .33s all ease-in-out;
+  &--auth {
+    min-width: 100px;
+    svg { color: currentColor }
+    &:hover {
+       opacity: (.8);
+    }
+  }
+  &--sign-out {
+    padding: 5px 10px;
+    background: #DC143C;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 3px;
+    &:hover {
+      background: rgba(#7B68EE, .8);
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.page-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

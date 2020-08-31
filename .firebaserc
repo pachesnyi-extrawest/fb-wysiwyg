@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fb-wysiwyg": {
+      "hosting": {
+        "fb-wysiwyg": [
+          "fb-wysiwyg"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fb-wysiwyg"
+  }
+}

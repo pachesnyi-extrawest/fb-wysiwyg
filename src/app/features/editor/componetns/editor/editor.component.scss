@@ -1,0 +1,24 @@
+.editor--custom {
+  border: 2px solid #eee;
+  padding: 20px;
+  display: block;
+  max-width: 600px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 400px;
+}
+
+.equation {
+  background: rgba(#7B68EE, .8);
+  color: #fff;
+  padding: 3px 4px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+* + .equation {margin-top: 10px; }
+
+* + .editor--custom {
+  margin-top: 10px;
+}
