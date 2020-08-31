@@ -38,6 +38,7 @@ button {
   transition: .33s all ease-in-out;
   &--auth {
     min-width: 100px;
+    max-width: 100px; // fix for firefox
     svg { color: currentColor }
     &:hover {
        opacity: (.8);
